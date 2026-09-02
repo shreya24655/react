@@ -1,0 +1,17 @@
+.page1{
+height: 100vh;
+width:100%;
+background-color: red;
+}
+
+.page2{
+height: 100vh;
+width:100%;
+background-color: rgb(222, 187, 187);
+}
+
+.page3{
+height: 100vh;
+width:100%;
+background-color: rgb(195, 118, 118);
+}
