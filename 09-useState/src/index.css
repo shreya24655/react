@@ -1,0 +1,21 @@
+html, 
+body{
+  height:100%;
+  width: 100%;
+}
+
+button{
+  padding:10px 20px;
+  margin:20px;
+}
+
+h1{
+  background-color: rgb(222, 174, 222);
+  width:fit-content;
+  font-size:100px;
+  padding:10px 70px;
+  border-radius:5px;
+  margin:20px;
+
+
+}
