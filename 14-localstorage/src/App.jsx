@@ -2,17 +2,17 @@ import React from 'react'
 
 const App = () => {
 
-const user={
-  username:'shreya',
-  age:90,
-  city:'gorakhpur'
-}
+  const user={
+    'name':'John',
+    'age':30
+  }
 
-localStorage.setItem('user',user);
-let data=localStorage.getItem('user');
+  localStorage.setItem('user',JSON.stringify(user));
+   const data=localStorage.getItem('user');
+   consoole.log(JSON.parse(data));
   return (
     <div>
-      App
+      
     </div>
   )
 }
