@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+color: white;
+}
+
+html,
+body{
+  height:100%;
+  width:100%;
+    background-color: black;
+}
+
+
+.light{
+  display:flex;
+  background-color: lightseagreen;
+  justify-content: space-between;
+  padding:13px 40px;
+}
+
+.dark{
+  display:flex;
+  background-color: rgb(20, 72, 69);
+  justify-content: space-between;
+  padding:13px 40px;
+}
+
+.nav2{
+  display:flex;
+  gap:30px;
+}
+.btn{
+background-color: rgb(77, 59, 35);
+}
